@@ -1,0 +1,18 @@
+#head2{
+    text-decoration: overline;
+}
+
+#head3{
+    font-weight:800;
+}
+
+#head4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#head5{
+    font-size:px;
+}
+#p1{
+    text-transform: capitalize;
+}
