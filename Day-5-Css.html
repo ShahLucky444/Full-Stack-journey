@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 display & rgba </title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+        }
+        #d1{
+            background-color: aqua;
+            display:inline;
+        }
+        #d2{
+            background-color: blueviolet;
+            display:block;
+        }
+        #d3{
+            background-color: chartreuse;
+            display:inline-block;
+            margin: 25px;
+            padding: 25px;
+        }
+        #d4{
+            background-color: darkkhaki;
+            display:none;
+        }
+        #d5{
+            background-color: darkorange;
+            visibility: hidden;
+        }
+        #div2{
+            background-color: grey;
+            margin:100px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">inline display</div>
+    <div id="d2">block</div>
+    <div id="d3">inline-block</div>
+    <div id="d4">none</div>
+    <div id="d5">visiblitiy hidden</div>
+
+    <br>
+    <hr>
+    <div id="div2">
+    <div id="div1" style="background-color: rgba(0,0,255,0.25);"></div>
+    <div id="div1" style="background-color: rgba(0,0,255,0.5);"></div>
+    <div id="div1" style="background-color: rgba(0,0,255,0.75);"></div>
+    <div id="div1" style="background-color: rgba(0,0,255,1);"></div>
+    </div>
+</html>
