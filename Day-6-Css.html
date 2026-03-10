@@ -12,18 +12,22 @@
         }
         #div1{
             position:static;
-            background-image: url("C:\Users\shah lucky\Downloads\IMG20260101152113.jpg");
-            background-size: cover;
+            background-color: aqua;
+
         }
         #div2{
             position: relative;
+            background-image: url("C:\Users\shah lucky\Downloads\IMG20260101152113.jpg");
+            background-size: contain;
             top: 20px;
             left:20px;
+            z-index: 5;
   }
     #div3{
         position: absolute;
         top:50px;
-        right:40px;
+        left:40px;
+
     }
     #div4{
         position: fixed;
@@ -41,7 +45,7 @@
     <body>
     <div id="di">
     <div id="div1" ></div>
-    <div id="div2" style="background-color: rgba(37, 136, 172, 0.5);"></div>
+    <div id="div2" style="background-color: rgba(37, 136, 172);"></div>
     <div id="div3" style="background-color: rgba(213, 144, 32, 0.75);"></div>
     <div id="div4" style="background-color: rgb(233, 38, 155);">
         
