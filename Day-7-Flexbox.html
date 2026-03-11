@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in css</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    div{
+        height: 200px;
+        width: 200px;
+        display:inline-block;
+        border:2px solid black;
+    }
+    #container{
+        height: 500px;
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #box1{
+        background-color: aqua;
+        align-items: flex-end;
+    }
+     #box2{
+        background-color: rgb(230, 167, 31);
+    }
+     #box3{
+        background-color: rgb(87, 87, 240);
+        flex-grow: 2;
+    }
+     #box4{
+        background-color: rgb(219, 68, 232);
+    }
+     #box5{
+        background-color: rgb(29, 228, 25);
+        align-items: flex-end;
+    }
+</style>
+<body>
+    <h1>Flexbox Playground</h1>
+    <div id="container">
+        <div id="box1">box1</div>
+        <div id="box2">box2</div>
+        <div id="box3">box3</div>
+        <div id="box4">box4</div>
+        <div id="box5">box5</div>
+    </div>
+</body>
+</html>
