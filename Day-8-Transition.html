@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,13 +23,13 @@
             font-size: 20px;
         }
         #box2:active{
-            height: 20px;
-            width: 50px;
-            background-color: aquamarine;
+            height: 500px;
+            width: 1000px;
+            background-image: url(krishn.jpg);
             color:blue;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: 25px;
-             transition-property:all;
+            transition-property:all;
             transition-duration: 3s;
             transition-timing-function: linear;
             transition-delay: 0.5s;
@@ -42,7 +42,44 @@
         box=1
     </div>
     <div id="box2">
-        box=2
+        Hare Krishna
+    </div>
+</body>
+</html> -->
+
+
+<!--Css Transform-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css transform</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: crimson;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            transition-duration: 2s;
+            color: white;
+            text-align: center;
+        }
+        div:hover{
+            /* transform: rotate(180deg); */
+            /* transform:scale(2,0.5); */
+            /* transform:translateX(100px); */
+            /* transform:translateY(-50px); */
+            /* transform: translate(150px,90px); */
+            transform:skew(75deg);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        transform
     </div>
 </body>
 </html>
